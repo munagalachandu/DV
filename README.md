@@ -1,60 +1,77 @@
 # Airbnb Business Analytics Dashboard
 
-A Power BI-based analytics project that explores Airbnb marketplace data to uncover trends in pricing, host performance, customer reviews, and property distribution. The dashboard provides interactive visualizations and KPIs to support data-driven decision-making for hosts, investors, and business analysts.
-
 ## Overview
 
-The rapid growth of Airbnb has generated large volumes of data related to listings, hosts, pricing, reviews, and customer behavior. This project analyzes Airbnb data using Microsoft Power BI and presents actionable insights through interactive dashboards.
+Airbnb has transformed the hospitality industry by enabling millions of hosts to offer short-term accommodations worldwide. This project leverages Microsoft Power BI to analyze Airbnb marketplace data and uncover meaningful insights related to listings, pricing, customer reviews, host performance, and property distribution.
 
-The dashboard enables users to:
+The objective of this project is to transform raw Airbnb data into interactive visualizations that support data-driven decision-making and help identify trends, opportunities, and patterns within the short-term rental market.
+<img width="1419" height="803" alt="Screenshot 2025-05-27 122158" src="https://github.com/user-attachments/assets/0b64b566-19a6-4832-b7ff-c759595316a6" />
 
-* Analyze listing distribution across cities and neighborhoods
-* Understand pricing and demand patterns
-* Evaluate host and property performance
-* Explore customer review and rating trends
-* Identify high-performing locations and property types
+---
 
-## Dataset
+## Data Source
+Dataset: Airbnb Listings & Reviews Dataset
 
-The dataset contains Airbnb marketplace information including:
+Source: https://www.kaggle.com/datasets/mysarahmadbhat/airbnb-listings-reviews
 
-* Listings
-* Hosts
-* Property Types
-* Room Types
-* Prices
-* Reviews
-* Ratings
-* Availability
-* Locations
+The dataset contains information related to Airbnb listings, hosts, reviews, ratings, pricing, room types, property types, and availability across multiple cities.
 
-### Key Statistics
+---
+<img width="1434" height="806" alt="Screenshot 2025-05-27 122215" src="https://github.com/user-attachments/assets/941a151a-51e3-4860-b29f-5e2540383e37" />
 
-* **280K+ Listings**
-* **182K+ Hosts**
-* **5M+ Reviews**
-* Multiple cities and property categories
+## Objectives
 
-## Features
+* Analyze Airbnb listings and review data to identify market trends.
+* Explore pricing patterns across cities, neighborhoods, and property categories.
+* Evaluate customer satisfaction using review and rating metrics.
+* Examine host activity and listing performance.
+* Build interactive dashboards for efficient data exploration and business analysis.
+* Generate actionable insights that support strategic decision-making.
 
-### KPI Dashboard
+---
+
+## Key Metrics Analyzed
 
 * Total Listings
 * Total Hosts
-* Average Price
-* Average Rating
 * Number of Reviews
+* Average Ratings
+* Listing Distribution
+* Property Types
+* Room Types
+* Pricing Trends
+* Location-Based Performance
 
-### Analytics & Visualizations
+---
+<img width="1404" height="799" alt="Screenshot 2025-05-27 122231" src="https://github.com/user-attachments/assets/d50b0e9b-7e86-4e84-822b-2c825e40bfe5" />
 
-* City-wise listing distribution
-* Property type analysis
-* Room type analysis
-* Price trend analysis
-* Geographic listing distribution
-* Customer rating analysis
-* Host performance tracking
-* Review trend visualization
+## Dashboard Features
+
+### Market Overview
+
+Provides a high-level view of Airbnb marketplace activity through key performance indicators and summary metrics.
+
+### Geographic Analysis
+
+Visualizes listing distribution across cities and regions, helping identify high-demand locations and market concentration.
+
+### Pricing Analysis
+
+Examines pricing variations across different locations, room types, and property categories.
+
+### Customer Review Analysis
+
+Analyzes review volumes and ratings to understand customer engagement and satisfaction patterns.
+
+### Property & Room Type Analysis
+
+Compares the performance and distribution of various property and room categories.
+
+### Host Performance Analysis
+
+Evaluates host activity and listing performance using review and rating metrics.
+
+---
 
 ## Technologies Used
 
@@ -62,55 +79,44 @@ The dataset contains Airbnb marketplace information including:
 * Power Query
 * DAX (Data Analysis Expressions)
 * Microsoft Excel
-* CSV Datasets
+
+---
 
 ## Key Insights
 
-* Identified cities with the highest concentration of Airbnb listings.
-* Analyzed pricing variations across locations and property types.
-* Evaluated customer satisfaction using review and rating metrics.
-* Highlighted high-demand property categories and market opportunities.
-* Developed KPI-driven dashboards for business performance monitoring.
+* Identified cities with the highest concentration of Airbnb listings and customer activity.
+* Analyzed pricing trends across different property and room types.
+* Evaluated customer satisfaction using review and rating data.
+* Highlighted high-performing locations and property categories.
+* Developed KPI-driven dashboards to support business and market analysis.
 
-## Dashboard Preview
+---
 
-Add screenshots of your Power BI dashboards here.
+## Applications
 
-### Dashboard 1
+* Business Intelligence & Analytics
+* Market Trend Analysis
+* Pricing Strategy Evaluation
+* Customer Behavior Analysis
+* Performance Monitoring
+* Data-Driven Decision Making
 
-![Dashboard 1](images/dashboard1.png)
+---
 
-### Dashboard 2
+## Future Enhancements
 
-![Dashboard 2](images/dashboard2.png)
-
-## Project Structure
-
-```text
-Airbnb-Business-Analytics-Dashboard/
-│
-├── Dashboard.pbix
-├── Dataset/
-│   └── airbnb_data.csv
-├── Images/
-│   ├── dashboard1.png
-│   └── dashboard2.png
-├── Report/
-│   └── Airbnb_Project_Report.pdf
-└── README.md
-```
-
-## Future Improvements
-
-* Predictive pricing analysis
-* Occupancy forecasting
+* Predictive pricing models using Machine Learning
+* Occupancy and demand forecasting
 * Real-time dashboard integration
-* Advanced customer sentiment analysis
-* Interactive drill-through reports
+* Customer sentiment analysis
+* Advanced market segmentation
+
+---
 
 ## Author
 
 **Munagala Chandu**
 
-* LinkedIn: https://linkedin.com/in/munagalachandu
-* GitHub: https://github.com/munagalachandu
+GitHub: https://github.com/munagalachandu
+
+LinkedIn: https://linkedin.com/in/munagalachandu
